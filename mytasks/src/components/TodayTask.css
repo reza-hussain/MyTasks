@@ -1,0 +1,64 @@
+
+
+.task-header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8% 4%;
+    background-color: #F8D57E;
+    border-radius: 14px;
+    width: 24vw;
+    max-width: 100%;
+    margin-bottom: 0 !important;
+    height: 8vh;
+    z-index: 100;
+}
+
+.task-header p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.time{
+    font-size: 14px !important;
+    font-weight: 400 !important;
+}
+
+.task-header *{
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 0;
+}
+
+.task-title{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.task-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #f6f7fb;
+    position: relative;
+    top: -10px;
+    height: 0;
+    overflow: hidden;
+    border-radius: 0px 0px 14px 14px;
+    transition: all 300ms;
+
+}
+
+.task-expand{
+    height: auto;
+}
+
+.task-content ul{
+    padding:8% 12% 5% 12%;
+}
+
+.task-content li{
+    text-align: left;
+}
